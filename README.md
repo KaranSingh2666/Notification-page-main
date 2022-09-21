@@ -21,7 +21,7 @@
 
 ### Links
 
-- Solution URL: [solution URL ](https://www.frontendmentor.io/solutions/qr-code-component-using-tailwindcss-QtOP2y7qV3)
+- Solution URL: [solution URL ](https://www.frontendmentor.io/solutions/qr-code-component-using-tailwindcss-QtOP2y7qV3#comment-632b403a0e511d365377d157)
 - Live Site URL: [Live URL](https://karansingh2666.github.io/Notification-page-main/)
 
 ## My process
