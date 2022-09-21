@@ -16,13 +16,13 @@
 
 ### Screenshot
 
-![](/ss/ss.png)
+![](./ss/ss.png)
 
 
 ### Links
 
 - Solution URL: [solution URL ](https://www.frontendmentor.io/solutions/qr-code-component-using-tailwindcss-QtOP2y7qV3)
-- Live Site URL: [Live URL](https://karansingh2666.github.io/Qr-code-component/)
+- Live Site URL: [Live URL](https://karansingh2666.github.io/Notification-page-main/)
 
 ## My process
 
