@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <script
+      src="https://kit.fontawesome.com/4cf94feb12.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 500;
+      }
+      .not {
+        background-color: hsl(210, 60%, 98%);
+      }
+      .paras {
+        color: hsl(219, 12%, 42%);
+      }
+      .smain {
+        color: hsl(218, 7%, 32%);
+      }
+      .time {
+        color: hsl(219, 14%, 63%);
+      }
+
+      .dot {
+        display: inline-flex;
+        align-items: center;
+        margin-left: 5px;
+        color: red;
+        font-size: 8px;
+      }
+
+      /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+    </style>
+  </head>
+  <body class="">
+    <!-- header -->
+    <!-- header -->
+    <!-- header -->
+    <!-- header -->
+    <!-- header -->
+
+    <div
+      class="lg:w-[45%] md:w-4/5  md:my-16 shadow-2xl mx-auto rounded-3xl flex flex-col space-y-3 px-8 pb-4"
+    >
+      <div class="flex justify-between flex-row py-5 items-center">
+        <div class="font-extrabold text-[16px]">
+          <span class="nottitle text-xl">Notifications</span>
+          <span
+            class="text-white bg-blue-900 px-3 rounded-md ml-1 text-base py-0.5 pt-0"
+            id="no"
+            >3</span
+          >
+        </div>
+        <div
+          class="text-sm hover:bg-blue-700 cursor-pointer hover:text-white p-2 rounded "
+          id="allrdbtn"
+        >
+          Mark all as read
+        </div>
+      </div>
+
+      <!-- Main body -->
+      <!-- Main body -->
+      <!-- Main body -->
+      <!-- Main body -->
+      <!-- Main body -->
+
+      <div
+        class="not flex flex-row space-x-4 p-4 rounded-xl text-[15px]"
+        id="ns1"
+      >
+        <img src="/assets/images/avatar-mark-webber.webp" alt="" class="h-10" />
+        <div class="flex flex-col font-medium">
+          <div class="paras">
+            <span class="font-extrabold pr-1 text-black cursor-pointer hover:text-blue-900">Mark Webber </span
+            >reacted to your recent post
+            <span class="smain cursor-pointer hover:text-blue-900">My first tournament today!</span>
+            <span class="dot" id="d1">
+              <i class="fa-solid fa-circle"></i>
+            </span>
+          </div>
+          <span class="time">1m ago</span>
+        </div>
+      </div>
+
+      <div
+        class="not flex flex-row space-x-4 p-4 rounded-xl text-[15px]"
+        id="ns2"
+      >
+        <img src="/assets/images/avatar-angela-gray.webp" alt="" class="h-10" />
+        <div class="flex flex-col font-medium">
+          <div class="paras">
+            <span class="font-extrabold pr-1 text-black cursor-pointer hover:text-blue-900">Angela Gray</span
+            >followed you
+            <span class="dot" id="d2">
+              <i class="fa-solid fa-circle"></i>
+            </span>
+          </div>
+          <span class="time">5m ago</span>
+        </div>
+      </div>
+
+      <div
+        class="not flex flex-row space-x-4 p-4 rounded-xl text-[15px]"
+        id="ns3"
+      >
+        <img
+          src="/assets/images/avatar-jacob-thompson.webp"
+          alt=""
+          class="h-10"
+        />
+        <div class="flex flex-col font-medium">
+          <div class="paras">
+            <span class="font-extrabold pr-1 text-black cursor-pointer hover:text-blue-900">Jacob Thompson </span>
+            has joined your group <span class="text-blue-900 cursor-pointer hover:text-blue-900">Chess Club</span>
+            <span class="dot" id="d3">
+              <i class="fa-solid fa-circle"></i>
+            </span>
+          </div>
+          <span class="time">1 day ago</span>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-row space-x-4 p-2.5 rounded-xl text-[15px]"
+        style="padding-left: 16px"
+      >
+        <img
+          src="/assets/images/avatar-rizky-hasanuddin.webp"
+          alt=""
+          class="h-10"
+        />
+        <div class="flex flex-col font-medium">
+          <div class="paras">
+            <span class="font-extrabold pr-1 text-black cursor-pointer hover:text-blue-900">Rizky Hasanuddin</span>
+            sent you a private message
+          </div>
+          <span class="time pb-2">5 days ago</span>
+          <div class="paras border border-slate-300 p-5 cursor-pointer hover:bg-teal-100">
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row justify-between p-4 rounded-xl text-[15px]">
+        <div class="flex flex-row space-x-4">
+          <img
+            src="/assets/images/avatar-kimberly-smith.webp"
+            alt=""
+            class="h-10"
+          />
+          <div class="flex flex-col font-medium">
+            <div class="paras">
+              <span class="font-extrabold pr-1 text-black cursor-pointer hover:text-blue-900">Kimberly Smith </span
+              >commented on your picture
+            </div>
+            <span class="time">1 week ago</span>
+          </div>
+        </div>
+        <div class="">
+          <img src="./assets/images/image-chess.webp" alt="" class="md:h-10 cursor-pointer" />
+        </div>
+      </div>
+
+      <div class="flex flex-row space-x-4 p-4 rounded-xl text-[15px]">
+        <img
+          src="/assets/images/avatar-nathan-peterson.webp"
+          alt=""
+          class="h-10"
+        />
+        <div class="flex flex-col font-medium">
+          <div class="paras">
+            <span class="font-extrabold pr-1 text-black cursor-pointer hover:text-blue-900">Nathan Peterson </span
+            >reacted to your recent post<span class="smain cursor-pointer hover:text-blue-900">
+              5 end-game strategies to increase your win rate</span
+            >
+          </div>
+          <span class="time">2 weeks ago</span>
+        </div>
+      </div>
+
+      <div class="flex flex-row space-x-4 p-4  rounded-xl text-[15px]">
+        <img src="/assets/images/avatar-anna-kim.webp" alt="" class="h-10" />
+        <div class="flex flex-col font-medium">
+          <div class="paras">
+            <span class="font-extrabold pr-1 text-black cursor-pointer hover:text-blue-900">Anna Kim </span>left
+            the group<span class="text-blue-900 cursor-pointer hover:text-blue-900"> Chess Club</span>
+          </div>
+          <span class="time"> 2 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+<!-- <div class="attribution">
+Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+Coded by <a href="#">Your Name Here</a>.
+</div> -->
