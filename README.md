@@ -21,7 +21,7 @@
 
 ### Links
 
-- Solution URL: [solution URL ](https://www.frontendmentor.io/solutions/qr-code-component-using-tailwindcss-QtOP2y7qV3#comment-632b403a0e511d365377d157)
+- Solution URL: [solution URL ](https://www.frontendmentor.io/solutions/notification-page-with-flexbox-MZ5cv998i4)
 - Live Site URL: [Live URL](https://karansingh2666.github.io/Notification-page-main/)
 
 ## My process
